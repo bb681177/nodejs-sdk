@@ -17,7 +17,7 @@ var fops = [
   'vframe/jpg/offset/10|saveas/' + qiniu.util.urlsafeBase64Encode(saveBucket +
     ":qiniu_frame1.jpg")
 ];
-var pipeline = 'jemy';
+var pipeline = { pipeline: "abc"};
 var srcBucket = 'if-bc';
 var srcKey = 'qiniu.mp4';
 
